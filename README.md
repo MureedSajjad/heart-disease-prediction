@@ -1,46 +1,73 @@
-# 🧠 Heart Disease Prediction with Random Forest
+# 🫀 Heart Disease Prediction with Random Forest  
+**Biomedical AI | Precision Medicine | University of Sindh**
 
-This project uses clinical and demographic data to predict the presence of heart disease using a Random Forest classifier. It’s part of my biomedical AI portfolio focused on precision medicine and data-driven healthcare.
+This project applies machine learning to predict heart disease risk using clinical and demographic data. Built with a Random Forest classifier, it demonstrates how data-driven models can support early diagnosis and precision healthcare. Part of my academic portfolio in biomedical AI and translational data science.
 
-## 📊 Dataset
+---
 
-- Source: [Heart Disease Dataset (UCI version) by ketangangal on Kaggle](https://www.kaggle.com/datasets/ketangangal/heart-disease-dataset-uci)
-- File used: `HeartDiseaseTrain-Test.csv` (113.4 kB)
-- Description: Contains anonymized patient data with 14 clinical features and 1 target label for binary classification of heart disease risk.
+## 📊 Dataset Overview
+
+- **Source**: [Heart Disease Dataset (UCI version) by ketangangal on Kaggle](https://www.kaggle.com/datasets/ketangangal/heart-disease-dataset-uci)  
+- **File Used**: `HeartDiseaseTrain-Test.csv` (113.4 kB)  
+- **Description**: Contains anonymized patient records with 14 clinical features and 1 binary target label indicating heart disease presence.
+
+---
 
 ## 🧪 Modeling Pipeline
 
-- Data preprocessing: handled missing values, encoded categorical features, scaled numerical variables
-- Feature selection: identified top predictors using Random Forest’s built-in importance metrics
-- Model training: trained Logistic Regression and Random Forest classifiers
-- Evaluation: assessed performance using accuracy, precision, recall, F1 score, confusion matrix, ROC curve, and AUC score
+- **Preprocessing**: Handled missing values, encoded categorical features, scaled numerical variables  
+- **Feature Selection**: Identified top predictors using Random Forest’s built-in importance metrics  
+- **Modeling**: Trained and compared Logistic Regression and Random Forest classifiers  
+- **Evaluation**: Assessed performance using accuracy, precision, recall, F1 score, confusion matrix, ROC curve, and AUC score
 
-## ✅ Results
+---
 
-- **Random Forest Accuracy**: 98.5%
-- **Precision**: 100%
-- **Recall**: 97.1%
-- **F1 Score**: 98.6%
-- **AUC Score**: 1.00 (Perfect classification)
-- **Confusion Matrix**: Only 3 false negatives, 0 false positives
-- **Feature Importance**: Max heart rate, age, oldpeak, and chest pain type were top predictors
+## ✅ Key Results
 
-## 📈 Visuals
+- 🎯 **Accuracy**: 98.5%  
+- 🧠 **Precision**: 100%  
+- 🔍 **Recall**: 97.1%  
+- 📊 **F1 Score**: 98.6%  
+- 📈 **AUC Score**: 1.00 (Perfect classification)  
+- ❌ **Confusion Matrix**: 0 false positives, 3 false negatives  
+- 🔬 **Top Predictors**: Max heart rate, age, ST depression (oldpeak), chest pain type
 
-Visualizations are included in the notebook:
-- ROC Curve showing perfect separation between classes
-- Feature Importance plot highlighting key clinical predictors
+---
+
+## 📈 Visual Insights
+
+![ROC Curve showing perfect classification (AUC = 1.00)](images/roc_curve.png)  
+*The ROC curve illustrates flawless separation between positive and negative cases.*
+
+![Feature Importance plot highlighting key predictors](images/feature_importance.png)  
+*Max heart rate and age emerged as dominant features in predicting cardiac risk.*
+
+---
 
 ## 🛠️ Technologies Used
 
-- Python
-- Jupyter Notebook
-- Scikit-learn
-- Pandas, NumPy
+- Python  
+- Jupyter Notebook  
+- Scikit-learn  
+- Pandas, NumPy  
 - Matplotlib, Seaborn
 
-`#machine-learning` `#biomedical-ai` `#heart-disease` `#data-science` `#jupyter-notebook` `#precision-medicine`
+---
+
+## 🚀 Next Steps & Future Work
+
+- Extend to multiclass classification for severity levels  
+- Integrate time-series ECG or imaging data for multimodal analysis  
+- Compare ensemble methods (e.g., XGBoost, LightGBM)  
+- Explore SHAP values for deeper interpretability  
+- Publish results in a reproducible research format
+
+---
 
 ## 📎 Notebook Preview
 
 If GitHub preview fails, view the notebook on [nbviewer](https://nbviewer.org/github/MureedSajjad/heart-disease-prediction/blob/main/Heart_Disease_Prediction_RF_BiomedicalAI.ipynb)
+
+---
+
+`#MachineLearning` `#BiomedicalAI` `#HeartDisease` `#DataScience` `#JupyterNotebook` `#PrecisionMedicine` `#OpenScience`
