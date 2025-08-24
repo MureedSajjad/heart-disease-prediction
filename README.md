@@ -36,11 +36,13 @@ This project applies machine learning to predict heart disease risk using clinic
 
 ## 📈 Visual Insights
 
-![ROC Curve showing perfect classification (AUC = 1.00)](images/roc_curve.png)  
+### ROC Curve
+![ROC Curve](images/roc_curve.png)
 *The ROC curve illustrates flawless separation between positive and negative cases.*
-
-![Feature Importance plot highlighting key predictors](images/feature_importance.png)  
+### Feature Importance
+![Feature Importance](images/feature_importance.png)
 *Max heart rate and age emerged as dominant features in predicting cardiac risk.*
+
 
 ---
 
