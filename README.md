@@ -37,12 +37,12 @@ This project applies machine learning to predict heart disease risk using clinic
 ## 📈 Visual Insights
 
 ### ROC Curve
-![ROC Curve](images/roc_curve.png)
-*The ROC curve illustrates flawless separation between positive and negative cases.*
+![ROC Curve](images/roc_curve.png) 
+*ROC Curve for Random Forest classifier. The curve shows near-perfect separation between classes, with an AUC score of 1.00 — indicating exceptional model performance and zero false positives.*
+
 ### Feature Importance
 ![Feature Importance](images/feature_importance.png)
-*Max heart rate and age emerged as dominant features in predicting cardiac risk.*
-
+*Feature importance plot from the Random Forest model. Max heart rate, age, ST depression (oldpeak), and chest pain type emerged as the most influential predictors of heart disease.*
 
 ---
 
